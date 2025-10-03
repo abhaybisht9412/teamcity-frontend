@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: abhay9412/teamcity-node-app:v1.0.11   # use your version or "latest"
+          image: abhay9412/teamcity-node-app:latest   # use your version or "latest"
           ports:
             - containerPort: 3000
 ---
